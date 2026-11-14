@@ -1,6 +1,6 @@
 ## Interface: 16001
 ## Title: GuildHello
-## Notes: Greets guildmates who stay online for five seconds.
+## Notes: Greets guildmates who stay online for ten seconds.
 ## Version: 1.0.0
 
 GuildHello.lua
