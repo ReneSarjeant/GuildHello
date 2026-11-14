@@ -38,7 +38,7 @@ local function ScheduleGreeting(name)
         if currentMembers and currentMembers[name] then
             local shortName = Ambiguate(name, "short")
             local send = C_ChatInfo and C_ChatInfo.SendChatMessage or SendChatMessage
-            send("Hi, " .. shortName .. "!", "GUILD")
+            send("[René] Hi, " .. shortName .. "!", "GUILD")
         end
     end)
 end
