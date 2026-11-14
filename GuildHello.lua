@@ -1,4 +1,4 @@
-local greetingDelay = 10
+local greetingDelay = 5
 local rosterRefreshInterval = 5
 local onlineMembers
 local pendingGreetings = {}
